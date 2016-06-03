@@ -1,0 +1,173 @@
+/*
+Global Elements
+============================================================*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	font-family: 'Lato', sans-serif;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#calc {
+	margin: 0 auto;
+}
+
+.number {
+	padding: 5px;
+}
+
+.operator {
+	padding: 5px;
+}
+
+.equals {
+	padding: 5px;
+}
+
+#total {
+	width: 250px;
+	margin: 10px auto;
+	height: 40px;
+	border: 1px solid #d1d1d1;
+	text-align: right;
+	font-size: 30px;
+	padding-right: 5px;
+}
+
+button {
+	padding: 20px;
+	text-decoration: none;
+}
+button:focus {
+	outline: 0;
+}
+
+.minus {
+	background: none;
+	background-color: #f6f6f6;
+	border: 1px solid #d1d1d1;
+	padding: 20px 21.5px;
+}
+.minus:hover {
+	border-color: black;
+}
+
+.period {
+	background: none;
+	background-color: #f6f6f6;
+	border: 1px solid #d1d1d1;
+	padding: 20px 22px;
+}
+.period:hover {
+	border-color: black;
+}
+
+.btn-number {
+	background: none;
+	background-color: #f6f6f6;
+	border: 1px solid #d1d1d1;
+}
+
+.btn-number:hover {
+	border-color: black;
+}
+
+.btn-number:focus {
+	outline: 0;
+}
+
+.btn-operator {
+	background: none;
+	background-color: #f6f6f6;
+	border: 1px solid #d1d1d1;
+}
+
+.btn-operator:hover {
+	border-color: black;
+}
+
+.btn-equals {
+	background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fefefe;
+}
+.btn-equals:hover {
+	border: 1px solid black;
+}
