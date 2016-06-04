@@ -1,5 +1,5 @@
-# calc
-Simple browser calculator
+## calc
+Simple calculator
 
 v1.0
 
