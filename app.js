@@ -86,8 +86,8 @@ $(document).keyup(function(e) {
         calc.sum = 0;
         currentNumber = 0;
         add = false;
-		minus = false;
-		multiply = false;
-		divide = false;
+        minus = false;
+        multiply = false;
+        divide = false;
     }
 });
