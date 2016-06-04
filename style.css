@@ -84,6 +84,10 @@ video {
 	box-sizing: border-box;
 }
 
+/*
+calc app
+============================================================*/
+
 #calc {
 	margin: 0 auto;
 }
@@ -101,7 +105,7 @@ video {
 }
 
 #total {
-	width: 250px;
+	width: 244px;
 	margin: 10px auto;
 	height: 40px;
 	border: 1px solid #d1d1d1;
@@ -170,4 +174,10 @@ button:focus {
 }
 .btn-equals:hover {
 	border: 1px solid black;
+}
+
+.esc {
+	width: 244px;
+	margin: 10px auto;
+	font-size: 15px;
 }
